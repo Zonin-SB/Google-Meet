@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+}
+.top{
+   
+    height: 90px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;  
+}
+
+.top-left{
+    width:60%;
+    height: 90px;
+
+}
+.top-right{
+    width: 40%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.top-left1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.top-left2{
+
+margin-left: 149px;
+margin-top: -39px;
+color: #5f6368;
+font-size: 24px;
+font-family: "Product Sans",Arial,sans-serif;
+}
+.top-right1{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-weight: 400;
+    color: #5f6368;
+    font-size: 1.125rem;
+    padding-top: 32px;
+    margin-top: -5px;
+    margin-left: 25px;
+}
+.logo1{
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+    margin-left: -12px;
+  
+}
+.logo2{
+    width: 30px;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: -18px;
+
+}
+.logo3{
+    width: 30px;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: -23px;
+
+}
+.logo4{
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+    margin-left: 18px;
+
+
+}
+.logo5{
+
+    width: 40px;
+    height: 40px;
+    margin-left: -29px;
+    margin-top: 18px;
+}
+
+.content{
+    height: 567px;
+    display: flex;
+}
+.left-content{
+    width: 50%;
+   
+}
+.right-content{
+    width: 50%;
+   
+}
+.left-para1{
+    line-height: 3.25rem;
+    font-family: "Google Sans Display",Roboto,Arial,sans-serif;
+    font-size: 2.75rem;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);  
+    margin-top: 103px;
+    margin-left: 56px;  
+}
+.left-para2{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #5f6368;
+    margin-top: 23px;
+    margin-left: 56px; 
+
+}
+.right-content1{
+    
+    height: 345px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 166px;
+    padding-top: 63px;
+    
+}
+.right-content-icon{
+    margin-left: 348px;
+    margin-top: -176px;
+    font-size: 17px;
+}
+.right-content-icon:hover{
+    cursor: pointer;
+   
+}
+.right-content-icon2{
+    margin-left: -23px;
+    margin-top: -16px;
+    color: #dadce0;
+    font-size: 17px;
+}
+.right-content2-para1{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: rgba(0,0,0,.87);
+    margin-top: 3px;
+}
+.right-content2-para2{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+}
+.logo1,.logo2,.logo3,.logo4,.logo5:hover{
+    cursor: pointer;
+}
+.top-left1:hover{
+    cursor: pointer;
+}
+.top-left2:hover{
+    cursor: pointer;
+}
+.meeting-button{
+    background-color: #1a73e8;
+    height: 48px;
+    width: 154px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 56px;
+    margin-left: 60px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-weight: 600;
+}
+.code{
+    border-color:rgba(0,0,0,.87);
+    height: 44px;
+    width: 256px;
+    border-radius: 3px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 16px;
+    margin-left: 17px;
+    border: solid 1px;
+
+}
+.meeting-button:hover{
+    cursor: pointer;
+}
+.code:hover{
+    border: solid 2px;  
+}
+.code:active{
+    border-color: #1a73e8;
+}
+.learn-more{
+    text-decoration: none;
+    color: #2962ff;
+}
+.about-meet{
+    font-family: Roboto,Arial,sans-serif;
+    color: #5f6368;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 64px;
+    margin-left: 60px;
+}
+.learn-more:hover{
+    text-decoration: underline;
+}
+.about-meet:hover{
+    cursor: pointer;
+}
